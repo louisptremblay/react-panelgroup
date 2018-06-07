@@ -194,7 +194,7 @@ class PanelGroup extends React.Component {
       console.log(panels[0], panels[1])
       console.log("ERROR! SIZES DON'T MATCH!: ", masterSize, boundingSize)
       // 2) Rectify the situation by adding all the unacounted for space to the first panel
-      panels[panelIndex].size += boundingSize - masterSize
+      //panels[panelIndex].size += boundingSize - masterSize
     }
 
     var minsize; var maxsize;
